@@ -9,21 +9,21 @@ const routes = [{
         method: 'GET',
         path: '/',
         handler: (req, res) => {
-            return 'Homepage'
+            return 'Homepage versi 2'
         },
     },
     {
         method: 'GET',
         path: '/about',
         handler: (req, res) => {
-            return 'About page'
+            return 'About page versi 2'
         },
     },
     {
         method: 'GET',
         path: '/{any*}',
         handler: (req, res) => {
-            return 'Halaman tidak ditemukan'
+            return 'Halaman tidak ditemukan versi 2'
         }
     }
 ]
