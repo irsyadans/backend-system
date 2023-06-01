@@ -2,28 +2,28 @@ const routes = [{
         method: '*',
         path: '/',
         handler: (req, res) => {
-            return 'Halaman tidak dapat diakses dengan method tersebut'
+            return 'Halaman tidak dapat diakses dengan method tersebut versi CI/CD'
         },
     },
     {
         method: 'GET',
         path: '/',
         handler: (req, res) => {
-            return 'Homepage versi 2'
+            return 'Homepage versi CI/CD'
         },
     },
     {
         method: 'GET',
         path: '/about',
         handler: (req, res) => {
-            return 'About page versi 2'
+            return 'About page versi CI/CD'
         },
     },
     {
         method: 'GET',
         path: '/{any*}',
         handler: (req, res) => {
-            return 'Halaman tidak ditemukan versi 2'
+            return 'Halaman tidak ditemukan versi CI/CD'
         }
     }
 ]
